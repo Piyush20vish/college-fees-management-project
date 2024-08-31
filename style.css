@@ -1,0 +1,119 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-ul {
+  display: flex;
+  padding: 0.5rem;
+  list-style-type: none;
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+.nav-option {
+  margin: 1rem;
+}
+
+.nav-option i {
+  font-size: large;
+}
+
+.nav-option a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.greeting {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cards {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.student {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.475);
+  background-color: rgb(14, 161, 252);
+  color: #fff;
+  transition: all 0.5s;
+}
+.student:hover {
+  width: 20.5rem;
+  height: 10.5rem;
+  box-shadow: 5px 5px 10px black;
+}
+
+.admission {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  background-color: orange;
+  color: #fff;
+  transition: all 0.5s;
+}
+.admission:hover {
+  width: 20.5rem;
+  height: 10.5rem;
+  box-shadow: 5px 5px 10px black;
+}
+
+.total-user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  background-color: red;
+  color: #fff;
+  transition: all 0.5s;
+}
+.total-user:hover {
+  width: 20.5rem;
+  height: 10.5rem;
+  box-shadow: 5px 5px 10px black;
+}
+
+.main {
+  padding: 10px;
+  box-shadow: 0 0 10px black;
+  border-radius: 5px;
+}
+
+.recent-pay {
+  margin-top: 5rem;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+td,
+th {
+  padding: 15px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
